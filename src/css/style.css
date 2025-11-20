@@ -398,6 +398,12 @@ span {
     margin-top: .5rem;
 }
 
+
+
+
+/* SKILLS SECTION */
+
+
 .services {
     min-height: auto;
     padding-bottom: 70px;
@@ -414,33 +420,20 @@ span {
     gap: 70px;
     width: 90vw;
     flex-wrap: wrap;
-    
-    
-
 }
 
 .services-container .services-box {
     flex: 1 1 300px;
     background: var(--bg-color);
     padding: 75px 0 75px 0;
-    /* border-radius: 20px; */
-    /* box-shadow: 0 1px 5px var(--shadow-color); */
     text-align: center;
-    /* border-top: 6px solid var(--main-color);
-    border-bottom: 6px solid var(--main-color); */
     transition: .5s ease;
     height: 200px;
-    
-
 }
 
-/* .services-container .services-box:hover {
-    box-shadow: 0 1px 2px var(--shadow-color);
-    transform: scale(1.02);
-} */
 
 .services-box i {
-    font-size: 1200%;
+    font-size: 700%;
     color: var(--text-color);
     transition: .5s ease;
     
