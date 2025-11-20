@@ -234,7 +234,11 @@ section {
     opacity: .8; 
 }
 
+
+
+
 /* ABOUT SECTION */
+
 
 .about {
     display: flex;
@@ -309,7 +313,11 @@ span {
     background: var(--second-bg-color);
 }
 
+
+
+
 /* EDUCATION SECTION */
+
 
 .education {
     display: flex;
@@ -404,12 +412,12 @@ span {
 /* SKILLS SECTION */
 
 
-.services {
+.skills {
     min-height: auto;
     padding-bottom: 70px;
 }
 
-.services .services-container {
+.skills .skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,7 +426,7 @@ span {
     flex-wrap: wrap;
 }
 
-.services-container .services-box {
+.skills-container .skills-box {
     flex: 1 1 300px;
     background: var(--bg-color);
     padding: 75px 0 75px 0;
@@ -428,42 +436,27 @@ span {
 }
 
 
-.services-box i {
+.skills-box i {
     font-size: 500%;
     color: var(--text-color);
     transition: .5s ease;
     
 }
 
-.services-box:hover i {
+.skills-box:hover i {
     color: var(--main-color);
 }
 
-.services-box h3 {
+.skills-box h3 {
     font-size: 26px;
     transition: .5s ease;
 }
 
-.services-box:hover h3 {
+.skills-box:hover h3 {
     color: var(--main-color);
 }
 
-.services-box p {
+.skills-box p {
     font-size: 16px;
     margin: 10px 0 30px;
-}
-
-.n8n-logo {
-  width: var(--icon-size);
-  height: var(--icon-size);
-  object-fit: contain;
-  margin-bottom: 10px;
-  transition: filter .5s ease;
-  filter: brightness(0) invert(1); /* começa branco */
-}
-
-.services-box:hover .n8n-logo {
-  filter: brightness(0) saturate(100%) invert(16%) sepia(95%) saturate(6866%) 
-          hue-rotate(274deg) brightness(97%) contrast(101%);
-  /* isso pinta do roxo #b005ff */
 }
