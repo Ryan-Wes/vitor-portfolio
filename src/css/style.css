@@ -409,15 +409,11 @@ span {
     padding-bottom: 70px;
 }
 
-/* .services h2 {
-    margin-bottom: 50px;
-} */
-
 .services .services-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 10px;
     width: 90vw;
     flex-wrap: wrap;
 }
@@ -433,7 +429,7 @@ span {
 
 
 .services-box i {
-    font-size: 700%;
+    font-size: 500%;
     color: var(--text-color);
     transition: .5s ease;
     
